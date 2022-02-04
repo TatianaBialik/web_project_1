@@ -31,7 +31,7 @@
   height: 60px;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -209,11 +209,11 @@
   height: 24px;
 }
 
-.event-info__icon_calendar {
+.event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
 }
 
-.event-info__icon_pin {
+.event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
 }
 
@@ -360,6 +360,7 @@
 }
 
 .about__title {
+  margin-top: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -379,7 +380,7 @@
 }
 
 .about__paragraph {
-  /* margin-bottom: 32px; */
+  margin-top: 0;
 }
 
 .about__circle {
@@ -447,4 +448,5 @@
 }
 
 .footer__copyrights {
+  margin: 0;
 }

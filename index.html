@@ -15,10 +15,10 @@
       <nav class="nav">
         <img
           src="./images/logo.png"
-          alt="Practicum Library Logo"
+          alt="Practicum Library logo"
           class="logo"
         />
-        <div class="nav-links">
+        <div class="nav__links">
           <a class="nav__link" href="#staff">Reader picks</a>
           <a class="nav__link" href="#events">Events</a>
           <a class="nav__link" href="#membership">Become a member</a>
@@ -44,9 +44,9 @@
     <main class="content">
       <section class="staff" id="staff">
         <h2 class="staff__title">Reader picks</h2>
-        <h3 class="staff__subtitle">That our readers love</h3>
+        <p class="staff__subtitle">That our readers love</p>
         <div class="staff__cards">
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">The Green Mile</h4>
               <p class="card__text">
@@ -64,9 +64,9 @@
                 Stephen King
               </p>
             </div>
-          </div>
+          </article>
     
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 Harry Potter
@@ -84,9 +84,9 @@
                 J.K.Rowling
               </p>
             </div>
-          </div>
+          </article>
     
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 The Ego and the Id
@@ -99,9 +99,9 @@
               </p>
               <p class="card__footer">Sigmund Freud</p>
             </div>
-          </div>
+          </article>
     
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 Anna Karenina
@@ -114,7 +114,7 @@
               </p>
               <p class="card__footer">Leo Tolstoy</p>
             </div>
-          </div>
+          </article>
         </div>
         
       </section>
@@ -127,11 +127,11 @@
           </h2>
           <div class="event-info events__info-section">
             <div class="event-info__item">
-              <div class="event-info__icon event-info__icon_calendar"></div>
-              <p class="event-info__text">Mon, January 12</p>
+              <div class="event-info__icon event-info__icon_type_calendar"></div>
+              <time datetime="01-12" class="event-info__text">Mon, January 12</time>
             </div>
             <div class="event-info__item">
-              <div class="event-info__icon event-info__icon_pin"></div>
+              <div class="event-info__icon event-info__icon_type_pin"></div>
               <p class="event-info__text">
                 Practicum Library Conference Hall & Online
               </p>
@@ -150,53 +150,53 @@
         </div>
         <div class="events__cover">
           <img src="./images/cafe.png" 
-          alt="Cafe image" 
+          alt="Illustration 'Inside the library'"
           class="events__image">
 
-          <div class="person person_name_feynman">
-            <p class="person__caption">
+          <figure class="person person_name_feynman">
+            <figcaption class="person__caption">
               Joan Feynman
-            </p>
+            </figcaption>
             <img src="./images/person_feynman.png" 
-            alt="Joan Feynman image" 
+            alt="Joan Feynman" 
             class="person__image person__image_size_l">
-          </div>
+          </figure>
 
-          <div class="person person_name_tarter">
-            <p class="person__caption">
+          <figure class="person person_name_tarter">
+            <figcaption class="person__caption">
               Jill Tarter
-            </p>
+            </figcaption>
             <img src="./images/person_tarter.png" 
-            alt="Jill Tarter image" 
+            alt="Jill Tarter" 
             class="person__image person__image_size_m">
-          </div>
+          </figure>
 
-          <div class="person person_name_burbidge">
-            <p class="person__caption">
+          <figure class="person person_name_burbidge">
+            <figcaption class="person__caption">
               Margaret Burbidge
-            </p>
+            </figcaption>
             <img src="./images/person_burbidge.png" 
-            alt="Margaret Burbidge image"  
+            alt="Margaret Burbidge"  
             class="person__image person__image_size_m">
-          </div>
+          </figure>
 
-          <div class="person person_name_cannon">
+          <figure class="person person_name_cannon">
             <img src="./images/person_cannon.png" 
-            alt="Annie Jump Cannon image"  
+            alt="Annie Jump Cannon"  
             class="person__image person__image_size_m">
-            <p class="person__caption">
+            <figcaption class="person__caption">
               Annie Jump Cannon
-            </p>
-          </div>
+            </figcaption>
+          </figure>
 
-          <div class="person person_name_mitchell">
+          <figure class="person person_name_mitchell">
             <img src="./images/person_mitchell.png" 
-            alt="Maria Mitchell image"   
+            alt="Maria Mitchell"   
             class="person__image person__image_size_s">
-            <p class="person__caption">
+            <figcaption class="person__caption">
               Maria Mitchell
-            </p>
-          </div>
+            </figcaption>
+          </figure>
         </div>
       </section>
   
@@ -304,9 +304,7 @@
         </div>
       </div>
 
-      <div class="footer__copyrights">
-        <p>© 2022 Tatiana Bialik</p>
-      </div>
+      <p class="footer__copyrights">© 2022 Tatiana Bialik</p>
     </footer>
   </div>
   
